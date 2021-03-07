@@ -1,0 +1,22 @@
+{
+  "VerbosePrints": true,
+  "Port": 9423,
+  "ListenAddress": "0.0.0.0",
+  "UseMongo": false,
+  "MongoConnection": "mongodb://127.0.0.1:27017",
+  "CollectionExpiryDelay": 1200000,
+  "MongoDatabase": "listserver",
+  "ServerTimeout": 20000,
+  "ServerContract": [
+    {
+      "Name": "ProjectID",
+      "Type": "String",
+      "Required": false
+    },
+    {
+      "Name": "Players",
+      "Type": "Int32",
+      "Required": true
+    }
+  ]
+}#
