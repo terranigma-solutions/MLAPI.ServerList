@@ -11,12 +11,12 @@
     {
       "Name": "ProjectID",
       "Type": "String",
-      "Required": false
+      "Required": true
     },
     {
-      "Name": "Players",
-      "Type": "Int32",
-      "Required": true
+      "Name": "Name",
+      "Type": "String",
+      "Required": false
     }
   ]
 }
